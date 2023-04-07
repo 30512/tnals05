@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html color</title>
+</head>
+<body style="background-color: aqua;"></body>
+    <h1 style="color: blue">색상 이름으로 표현된 파란색</h1>
+    <h1 style="color:maroon;">style을 이용한 글자색 변경</h1>"
+    <h1 style="font-size:250%;">style을 이용한 글자색 변경</h1>
+    <h1 style="text-align: center;">style 속성을 이용한 문단 정렬 변경</h1>"
+    <a href="http://www.hyangil.hs.kr/wah/main/index.htm">
+        <h2>이 링크를 클릭해 보세요!</h2>
+    </a>
+    <h1>페이지 책갈피</h1>
+    <a href="#boockmark"><p>제목 7로 갑시다!!!</p></a>
+
+    <h2>제목1</h2>
+    <p>첫 번째 단락</p>
+    
+    <h2>제목2</h2>
+    <p>두 번째 단락</p>
+
+    <h2>제목3</h2>
+    <p>세 번째 단락</p>
+
+    <h2>제목4</h2>
+    <p>네 번째 단락</p>
+
+    <h2>제목5</h2>
+    <p>다섯 번째 단락</p>
+
+    <h2>제목6</h2>
+    <p>여섯 번째 단락</p>
+
+
+    <h2><a name="boockmark"></a>제목 7</h2>
+    <p>일곱 번째 단락</p>
+
+
+    <h2>제목8</h2>
+    <p>여덟 번째 단락</p>
+
+    <h2>제목9</h2>
+    <p>아홉 번째 단락</p>
+
+    <h1>span요소를 이용한 스타일 적용</h1>
+    <p>이렇게
+    <span style="border:3px solid red">span요소로 일부분</span>만을 따로 묶은 후에 스타일을 적용할수있습니다.</p>
+
+        <h1>버튼 입력</h1>
+        <button type="button" onclick="alert(버튼을 클릭하셨군요!)">버튼을 눌러주세요.</button>
+
+</body>
+</html>
