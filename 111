@@ -1,0 +1,13 @@
+      const configuration = new Configuration({
+        apiKey: 'openai에서 발급받은 api key',
+      });
+      const openai = new OpenAIApi(configuration);
+
+      openai.createCompletion({
+        model: "text-davinci-002",
+        prompt: document.querySelector('#input').value,
+        temperature: 0.7,
+        max_tokens: 256,
+        top_p: 1,
+        frequency_penalty: 0,
+        presence_penalty: 0,
